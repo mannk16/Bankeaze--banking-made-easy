@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankeaze- Banking made easy</title>
+  </head>
+
+  <div class="section-one">
+    <span class="Welcome-text">Log in to get started</span>
+    <img src="Logo-Bankeaze.png" class="logo" alt="logo of bankeaze app" />
+    <div class="user-and-pin">
+      <input class="user" type="text" placeholder="user" />
+      <input class="pin" type="text" placeholder="PIN" />
+      <button class="arrow">&rarr;</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-two">
+      <div class="current">
+        <p class="current-balance">Current balance</p>
+        <p class="date-time">As of 23/10/2037, 12:56</p>
+      </div>
+      <div class="balance">
+        <p class="balance-amount">0000 $</p>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="display">
+        <div class="display-content">
+          <div class="left-display">
+            <span class="transaction-display deposit">8 deposit</span>
+            <span class="date">1/2/22</span>
+          </div>
+          <div class="right-display">
+            <span class="display-amount">1300</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="display-content">
+          <div class="left-display">
+            <span class="transaction-display withdrawl">6 withdrawl</span>
+            <span class="date">1/2/22</span>
+          </div>
+          <div class="right-display">
+            <span class="display-amount">-130</span>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="main-part-two">
+        <div class="transfer-money">
+          <p class="heading-text">Transfer money</p>
+          <div class="grid-inputs">
+            <input class="input-one transferto" type="text" />
+            <input class="input-two transferamount" type="text" />
+            <button class="arrow-right transfer">&rarr;</button>
+            <label class="label">Transfer to</label>
+            <label class="label">Amount</label>
+          </div>
+        </div>
+        <div class="request-loan">
+          <p class="heading-text">Request Loan</p>
+          <div class="grid-inputs">
+            <input class="input-one requestloan" type="text" />
+            <button class="arrow-right requestloan">&rarr;</button>
+            <label class="request-loan-label">Amount</label>
+          </div>
+        </div>
+        <div class="close-account">
+          <p class="heading-text">Close Amount</p>
+          <div class="grid-inputs">
+            <input class="input-one closeuser" type="text" />
+            <input class="input-two closepin" type="text" />
+            <button class="arrow-right close">&rarr;</button>
+            <label class="label">Confirm user</label>
+            <label class="label">Confirm pin</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-three">
+      <div class="section-three-left">
+        <div class="ins-outs-interest">
+          <p class="movement-text in">In</p>
+          <p class="movements-amount in">0000 $</p>
+        </div>
+
+        <div class="ins-outs-interest">
+          <p class="movement-text out">Out</p>
+          <p class="text-out">0000 $</p>
+        </div>
+
+        <div class="ins-outs-interest">
+          <p class="movement-text interest">Interest</p>
+          <p class="movements-amount interest">0000 $</p>
+        </div>
+
+        <div class="sort">
+          <button class="sort-now">&darr; Sort</button>
+        </div>
+      </div>
+
+      <div class="section-three-right">
+        <p class="logged-out">
+          You will be logged out in <span class="timing">5:00</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js" rel="stylesheet"></script>
+  <body></body>
+</html>
